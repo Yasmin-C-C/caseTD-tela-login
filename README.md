@@ -2,16 +2,6 @@
 
 Projeto feito com React e TypeScript para o case de TD. Tem tela de login, área de administração e opção de modo claro e escuro. Usei Tailwind CSS e componentes do shadcn/ui para a estilização.
 
-## Como executar
-
-No terminal, dentro da pasta do projeto:
-
-```bash
-npm install
-npm run dev
-```
-
-Depois, abra o endereço que aparecer no terminal.
 
 ## Dados para teste
 
