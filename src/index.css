@@ -1,14 +1,33 @@
-* {
-  box-sizing: border-box;
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme inline {
+  --font-sans: 'Inter', Arial, sans-serif;
+  --color-card: var(--card);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-input: var(--input);
+  --color-ring: var(--primary);
 }
 
-body {
-  margin: 0;
-  font-family: 'Inter', Arial, sans-serif;
-  color: #222;
+:root {
+  --card: #fff;
+  --primary: #252eff;
+  --primary-foreground: #fff;
+  --input: #6066ff;
 }
 
-input,
-button {
-  font: inherit;
+.dark {
+  --card: #121212;
+  --primary: #bb86fc;
+  --primary-foreground: rgba(0, 0, 0, 0.87);
+  --input: #bb86fc;
+}
+
+@layer base {
+  body {
+    margin: 0;
+    font-family: var(--font-sans);
+  }
 }

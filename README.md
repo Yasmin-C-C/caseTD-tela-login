@@ -1,45 +1,25 @@
 # Case TD - Tela de login
 
-Sistema simples de login feito com React e Vite, com tela de administração e modos claro e escuro.
+Projeto feito com React e TypeScript para o case de TD. Tem tela de login, área de administração e opção de modo claro e escuro. Usei Tailwind CSS e componentes do shadcn/ui para a estilização.
 
 ## Como executar
 
-Instale as dependências:
+No terminal, dentro da pasta do projeto:
 
 ```bash
 npm install
-```
-
-Inicie o projeto e abra o endereço mostrado no terminal:
-
-```bash
 npm run dev
 ```
 
-## Login de demonstração
+Depois, abra o endereço que aparecer no terminal.
+
+## Dados para teste
 
 - Usuário: `admin`
 - Senha: `123456`
 
-O login é simulado no frontend. Ao atualizar a página, é necessário entrar novamente.
+O login é uma simulação no frontend. Ao atualizar a página, é preciso entrar novamente.
 
-## Funcionalidades
+## Referência
 
-- Validação de usuário e senha, com mensagem de erro.
-- Navegação para a administração após o login.
-- Redirecionamento ao login ao tentar acessar a administração sem estar logado.
-- Botão para sair.
-- Alternância entre modo claro e escuro.
-- Layout adaptado para celular.
-
-## Verificações
-
-```bash
-npm run build
-npm run lint
-```
-
-## Referência visual
-
-[Login & Register Form (Auto Layout), de Kardi, no Figma](https://www.figma.com/community/file/1064457108871879363/login-register-form-auto-layout), licenciado sob [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Adaptado para este case com troca de tema, responsividade e tela de administração.
-"# caseTD-tela-login" 
+Visual adaptado do [modelo de Kardi no Figma](https://www.figma.com/community/file/1064457108871879363/login-register-form-auto-layout), com licença [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
