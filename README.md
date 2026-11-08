@@ -8,7 +8,6 @@ Projeto feito com React e TypeScript para o case de TD. Tem tela de login, área
 - Usuário: `admin`
 - Senha: `123456`
 
-O login é uma simulação no frontend. Ao atualizar a página, é preciso entrar novamente.
 
 ## Referência
 
